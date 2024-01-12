@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-stas-knop-9100862.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 30px;
+    color: orangered;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: orangered;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-content {
+    width: 100%;
+    text-align: center;
+    color: rgb(6, 82, 182);
+}
+
+.main-content h1 {
+    font-size: 40px;
+}
+
+.main-content p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.main-content button {
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 12px 28px;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: goldenrod;
+    color: red;
+    transition: .4s;
+}
+
+.main-content button:hover {
+    color: goldenrod;
+    background: red;
+}
